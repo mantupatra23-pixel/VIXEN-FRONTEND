@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // Ye line Render Static Site ke liye zaroori hai
+  output: 'export',
+  trailingSlash: true,
   images: {
     unoptimized: true,
   },
